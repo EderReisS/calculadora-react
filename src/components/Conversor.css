@@ -1,0 +1,50 @@
+.conversor {
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #15b144;
+    border-radius: 5px;
+}
+
+.input{
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.button {
+    border-radius: 4px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+}
+
+h2 > span{
+    color: white;
+    margin: 0px 10px 0px 10px;
+    font-size: 40px;
+}
+
+li{
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+li > p{
+    padding: 0.5rem;
+}
+
+h1{
+    align-items: center;
+    padding: 0.5rem;
+    background-image: linear-gradient(to bottom, rgb(184, 190, 95) 0%, rgb(175, 180, 105) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
+    background-clip: content-box, padding-box;
+}
