@@ -32,3 +32,12 @@ h2 > span{
     font-size: 40px;
 }
 
+li{
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+li > p{
+    padding: 0.5rem;
+}
